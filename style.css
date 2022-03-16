@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-weight: medium;
+  font-size: 30px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+}
+
+.img1 {
+  margin-right: 50px;
+}
+
+.img2 {
+  margin-left: 20px;
+}
+
+/*Criando estilo para o main (nome/cartão/data) */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+main form {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form label #name {
+  width: 600px;
+}
+
+form label #card {
+  width: 100px;
+}
+
+form label #date {
+  width: 110px;
+}
+
+/*Criação do aside (questões e respostas)*/
