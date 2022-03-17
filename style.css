@@ -34,9 +34,11 @@ header img {
 /*Criando estilo para o main (nome/cartão/data) */
 main {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100vw;
+  height: 100px;
+  flex-wrap: nowrap;
 }
 
 main form {
@@ -47,15 +49,48 @@ main form {
 }
 
 form label #name {
-  width: 600px;
+  width: 40rem;
 }
 
 form label #card {
-  width: 100px;
+  width: 4rem;
 }
 
 form label #date {
-  width: 110px;
+  width: 5.5rem;
 }
 
 /*Criação do aside (questões e respostas)*/
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quests {
+  margin-bottom: 100px;
+  width: 85%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quests form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quests form label input {
+  margin-top: 70px;
+}
+
+.quests button {
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 10px 0px;
+  width: 20%;
+  align-self: center;
+}
